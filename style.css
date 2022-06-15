@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(90deg, darkred, darkblue);
+}
+@media only screen{
+    .body{
+        height: 915px;
+        background: linear-gradient(90deg, darkred, darkblue);
+    }
+}
+/* slider-story */
+.story{
+    overflow: hidden;
+    padding: 20px;
+}
+.stor{
+    flex-direction: row;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 8px;
+    height: 100px;
+    width: 18%;
+    animation: glisse 15s infinite;
+}
+@keyframes glisse{
+    0%{
+        transform: translateX(-250px);
+        background: darkblue;
+    }
+    10%{
+        transform: translateX(0);
+        background: darkred;
+    }
+    20%{
+        transform: translateX(100px);
+        background: yellow;
+    }
+    30%{
+        transform: translateX(200px);
+        background: magenta;
+    }
+    40%{
+        transform: translateX(300px);
+        background: mediumspringgreen;
+    }
+    50%{
+        transform: translateX(350px);
+        background: crimson;
+    }
+    60%{
+        transform: translateX(300px);
+        background: green;
+    }
+    70%{
+        transform: translateX(200px);
+        background: tomato;
+    }
+    80%{
+        transform: translateX(100px);
+        background: darkslateblue;
+    }
+    90%{
+        transform: translateX(0);
+        background: chartreuse;
+    }
+    100%{
+        transform: translateX(-150px);
+        background: red;
+    }
+}
+/* titre */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: linear-gradient(45deg, black, darkgray, whitesmoke);
+    border-radius: 20px;
+    width: 270px;
+    border: 1px solid white;    
+}
+/* social */
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+
+}
+.logonam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid darkred;
+    padding: 7px;
+    background: darkblue;
+
+}
+.rsx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(45deg, darkblue, darkred);
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: linear-gradient(45deg, whitesmoke, black)
+
+}
